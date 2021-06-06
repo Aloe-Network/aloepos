@@ -90,13 +90,13 @@ class get_pybind_include(object):
 
 ext_modules = [
     Extension(
-        "chiapos",
+        "aloepos",
         [
             "lib/FiniteStateEntropy/lib/entropy_common.c",
             "lib/FiniteStateEntropy/lib/fse_compress.c",
             "lib/FiniteStateEntropy/lib/fse_decompress.c",
             "lib/FiniteStateEntropy/lib/hist.c",
-            "python-bindings/chiapos.cpp",
+            "python-bindings/aloepos.cpp",
             "uint128_t/uint128_t.cpp",
             "src/b3/blake3.c",
             "src/b3/blake3_portable.c",
@@ -185,15 +185,15 @@ class BuildExt(build_ext):
 
 if platform.system() == "Windows":
     setup(
-        name="chiapos",
-        author="Mariano Sorgente",
-        author_email="mariano@chia.net",
-        description="Chia proof of space plotting, proving, and verifying (wraps C++)",
+        name="aloepos",
+        author="Shane Cravens",
+        author_email="shane@aloecoin.org",
+        description="Aloe proof of space plotting, proving, and verifying (wraps C++)",
         license="Apache License",
         python_requires=">=3.7",
         long_description=open("README.md").read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/Chia-Network/chiapos",
+        url="https://github.com/Aloe-Network/aloepos",
         setup_requires=["pybind11"],
         ext_modules=ext_modules,
         cmdclass={"build_ext": BuildExt},
@@ -201,16 +201,16 @@ if platform.system() == "Windows":
     )
 else:
     setup(
-        name="chiapos",
-        author="Mariano Sorgente",
-        author_email="mariano@chia.net",
-        description="Chia proof of space plotting, proving, and verifying (wraps C++)",
+        name="aloepos",
+        author="Shane Cravens",
+        author_email="shane@aloecoin.org",
+        description="Aloe proof of space plotting, proving, and verifying (wraps C++)",
         license="Apache License",
         python_requires=">=3.7",
         long_description=open("README.md").read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/Chia-Network/chiavdf",
-        ext_modules=[CMakeExtension("chiapos", ".")],
+        url="https://github.com/Aloe-Network/aloevdf",
+        ext_modules=[CMakeExtension("aloepos", ".")],
         cmdclass=dict(build_ext=CMakeBuild),
         zip_safe=False,
     )
