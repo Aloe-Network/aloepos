@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -200,3 +200,4 @@ void b17RunPhase4(uint8_t k, uint8_t pos_size, FileDisk &tmp2_disk, b17Phase3Res
     std::cout << std::dec;
 }
 #endif  // SRC_CPP_PHASE4_HPP
+E4_HPP

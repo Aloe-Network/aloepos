@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -294,3 +294,4 @@ private:
 };
 
 #endif  // SRC_CPP_FAST_SORT_ON_DISK_HPP_
+K_HPP_

@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -417,3 +417,4 @@ std::vector<uint64_t> b17RunPhase2(
 }
 
 #endif  // SRC_CPP_PHASE2_HPP
+E2_HPP

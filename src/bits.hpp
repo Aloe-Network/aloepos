@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -555,3 +555,4 @@ using ParkBits = BitsGeneric<ParkVector>;
 using LargeBits = BitsGeneric<LargeVector>;
 
 #endif  // SRC_CPP_BITS_HPP_
+S_HPP_
